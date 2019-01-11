@@ -104,6 +104,7 @@ def handwritingClassTest():
 		classNumStr = int(fileStr.split('_')[0])
 		hwLabels.append(classNumStr)
 		trainingMat[i,:] = img2vector('trainingDigits/%s' % fileNameStr)
+		
 	testFileList = listdir('testDigits')
 	errorCount = 0.0
 	mTest = len(testFileList)
