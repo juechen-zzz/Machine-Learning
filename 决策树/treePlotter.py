@@ -14,12 +14,16 @@ def plotNode(nodeTxt, centerPt, parentPt, nodeType):
 
 
 # 创建一个新图形并清空绘图区，在绘图区绘制两个代表不同类型的树节点
-def createPlot():
+def createPlot(inTree):
     fig = plt.figure(1, facecolor='white')
     fig.clf()
-    createPlot.ax1 = plt.subplot(111, frameon=False)
-    plotNode('决策节点', (0.5, 0.1), (0.1, 0.5), decisionNode)
-    plotNode('叶节点', (0.8, 0.1), (0.3, 0.8), leafNode)
+    axprops = dict(xticks=[], yticks=[])
+    createPlot.ax1 = plt.subplot(111, frameon=False, **axprops)
+    plotTree.totalW = float(getNumLeafs(inTree))
+    plotTree.totalD = float(getTreeDepth(inTree))
+    plotTree.x0ff = -0.5 / plotTree.totalW
+    plotTree.y0ff = 1.0
+    plotTree(inTree, (0.5, 1.0), '')
     plt.show()
 
 
@@ -56,4 +60,30 @@ def retrieveTree(i):
                    {'no surfacing': {0: 'no', 1: {'flippers': {0: {'head': {0: 'no', 1: 'yes'}}, 1: 'no'}}}}
                    ]
     return listOfTrees[i]
+
+def plotMidText(cntrPt, parentPt, txtString):
+    xMid = (parentPt[0] - cntrPt[0]) / 2.0 + cntrPt[0]
+    yMid = (parentPt[1] - cntrPt[1]) / 2.0 + cntrPt[1]
+    createPlot.ax1.text(xMid, yMid, txtString)
+
+def plotTree(myTree, parentPt, nodeTxt):
+    numLeafs = getNumLeafs(myTree)
+    depth = getTreeDepth(myTree)
+    firstSides = list(myTree.keys())
+    firstStr = firstSides[0]
+    cntrPt = (plotTree.x0ff + (1.0 + float(numLeafs)) / 2.0 / plotTree.totalW, plotTree.y0ff)
+    plotMidText(cntrPt, parentPt, nodeTxt)
+    plotNode(firstStr, cntrPt, parentPt, decisionNode)
+    secondDict = myTree[firstStr]
+    plotTree.y0ff = plotTree.y0ff - 1.0 / plotTree.totalD
+    for key in secondDict.keys():
+        if type(secondDict[key]).__name__ == 'dict':
+            plotTree(secondDict[key], cntrPt, str(key))
+        else:
+            plotTree.x0ff = plotTree.x0ff + 1.0 / plotTree.totalW
+            plotNode(secondDict[key], (plotTree.x0ff, plotTree.y0ff), cntrPt, leafNode)
+            plotMidText((plotTree.x0ff, plotTree.y0ff), cntrPt, str(key))
+    plotTree.y0ff = plotTree.y0ff + 1.0 / plotTree.totalD
+
+
 
