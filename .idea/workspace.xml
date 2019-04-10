@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a014b49-ad51-441b-bb0b-21d2b32070f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/朴素贝叶斯/bayes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/朴素贝叶斯/setOfWords2Vec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/朴素贝叶斯/trainNB0.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K-近邻算法/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/K-近邻算法/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/决策树/treePlotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/treePlotter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/决策树/trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/决策树/trees.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,23 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/决策树/treePlotter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="72" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/决策树/trees.py">
+        <entry file="file://$PROJECT_DIR$/朴素贝叶斯/bayes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
-              <folding>
-                <element signature="e#9#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="361">
+              <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -58,6 +46,9 @@
         <option value="$PROJECT_DIR$/决策树/createTree.py" />
         <option value="$PROJECT_DIR$/决策树/treePlotter.py" />
         <option value="$PROJECT_DIR$/决策树/trees.py" />
+        <option value="$PROJECT_DIR$/朴素贝叶斯/setOfWords2Vec.py" />
+        <option value="$PROJECT_DIR$/朴素贝叶斯/bayes.py" />
+        <option value="$PROJECT_DIR$/朴素贝叶斯/trainNB0.py" />
       </list>
     </option>
   </component>
@@ -85,7 +76,7 @@
             <path>
               <item name="Machine Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Machine Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="决策树" type="462c0819:PsiDirectoryNode" />
+              <item name="朴素贝叶斯" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,6 +240,16 @@
     <entry file="file://$PROJECT_DIR$/K-近邻算法/classifyPerson.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/决策树/trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="e#9#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/决策树/treePlotter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -256,13 +257,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/决策树/trees.py">
+    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/setOfWords2Vec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
-          <folding>
-            <element signature="e#9#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="114">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/trainNB0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
         </state>
       </provider>
     </entry>
