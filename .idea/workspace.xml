@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a014b49-ad51-441b-bb0b-21d2b32070f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/朴素贝叶斯/bayes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/朴素贝叶斯/setOfWords2Vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/朴素贝叶斯/trainNB0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logistic回归/gradAscent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logistic回归/logRegres.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advantage and Disadvantage.md" beforeDir="false" afterPath="$PROJECT_DIR$/Advantage and Disadvantage.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +16,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/朴素贝叶斯/bayes.py">
+        <entry file="file://$PROJECT_DIR$/Logistic回归/logRegres.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+            <state relative-caret-position="513">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="e#13#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,8 +50,12 @@
         <option value="$PROJECT_DIR$/决策树/treePlotter.py" />
         <option value="$PROJECT_DIR$/决策树/trees.py" />
         <option value="$PROJECT_DIR$/朴素贝叶斯/setOfWords2Vec.py" />
-        <option value="$PROJECT_DIR$/朴素贝叶斯/bayes.py" />
         <option value="$PROJECT_DIR$/朴素贝叶斯/trainNB0.py" />
+        <option value="$PROJECT_DIR$/朴素贝叶斯/classifyNB.py" />
+        <option value="$PROJECT_DIR$/朴素贝叶斯/spamTest.py" />
+        <option value="$PROJECT_DIR$/朴素贝叶斯/bayes.py" />
+        <option value="$PROJECT_DIR$/Logistic回归/gradAscent.py" />
+        <option value="$PROJECT_DIR$/Logistic回归/logRegres.py" />
       </list>
     </option>
   </component>
@@ -66,6 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,13 +84,12 @@
             <path>
               <item name="Machine Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Machine Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="朴素贝叶斯" type="462c0819:PsiDirectoryNode" />
+              <item name="Logistic回归" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,10 +288,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/classifyNB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/朴素贝叶斯/spamTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/朴素贝叶斯/bayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+        <state relative-caret-position="457">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+          <folding>
+            <element signature="e#11#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logistic回归/gradAscent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logistic回归/logRegres.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#13#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
