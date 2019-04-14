@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a014b49-ad51-441b-bb0b-21d2b32070f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Logistic回归/plotBestFit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logistic回归/classifyVector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logistic回归/stocGradAscent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logistic回归/logRegres.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logistic回归/logRegres.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logistic回归/plotBestFit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logistic回归/plotBestFit.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Logistic回归/logRegres.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="58" />
+            <state relative-caret-position="684">
+              <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
               <folding>
                 <element signature="e#13#33#0" expanded="true" />
               </folding>
@@ -52,8 +56,10 @@
         <option value="$PROJECT_DIR$/朴素贝叶斯/spamTest.py" />
         <option value="$PROJECT_DIR$/朴素贝叶斯/bayes.py" />
         <option value="$PROJECT_DIR$/Logistic回归/gradAscent.py" />
-        <option value="$PROJECT_DIR$/Logistic回归/logRegres.py" />
         <option value="$PROJECT_DIR$/Logistic回归/plotBestFit.py" />
+        <option value="$PROJECT_DIR$/Logistic回归/stocGradAscent.py" />
+        <option value="$PROJECT_DIR$/Logistic回归/logRegres.py" />
+        <option value="$PROJECT_DIR$/Logistic回归/classifyVector.py" />
       </list>
     </option>
   </component>
@@ -71,7 +77,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,6 +93,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,15 +325,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Logistic回归/plotBestFit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="361">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logistic回归/stocGradAscent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logistic回归/classifyVector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Logistic回归/logRegres.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="58" />
+        <state relative-caret-position="684">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
           <folding>
             <element signature="e#13#33#0" expanded="true" />
           </folding>
