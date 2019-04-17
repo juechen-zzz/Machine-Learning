@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a014b49-ad51-441b-bb0b-21d2b32070f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/支持向量机/selectJrand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/支持向量机/smoSimple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/支持向量机/svmMLiA.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advantage and Disadvantage.md" beforeDir="false" afterPath="$PROJECT_DIR$/Advantage and Disadvantage.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/支持向量机/svmMLiA.py" beforeDir="false" afterPath="$PROJECT_DIR$/支持向量机/svmMLiA.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/支持向量机/svmMLiA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="532">
+              <caret line="216" lean-forward="true" selection-start-line="216" selection-end-line="216" />
             </state>
           </provider>
         </entry>
@@ -58,8 +55,8 @@
         <option value="$PROJECT_DIR$/Logistic回归/logRegres.py" />
         <option value="$PROJECT_DIR$/Logistic回归/classifyVector.py" />
         <option value="$PROJECT_DIR$/支持向量机/selectJrand.py" />
-        <option value="$PROJECT_DIR$/支持向量机/svmMLiA.py" />
         <option value="$PROJECT_DIR$/支持向量机/smoSimple.py" />
+        <option value="$PROJECT_DIR$/支持向量机/svmMLiA.py" />
       </list>
     </option>
   </component>
@@ -363,15 +360,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/支持向量机/smoSimple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="499">
           <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/支持向量机/svmMLiA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="532">
+          <caret line="216" lean-forward="true" selection-start-line="216" selection-end-line="216" />
         </state>
       </provider>
     </entry>
