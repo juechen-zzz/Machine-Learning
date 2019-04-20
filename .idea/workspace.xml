@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a014b49-ad51-441b-bb0b-21d2b32070f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/AdaBoost元算法/stumpClassify.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdaBoost元算法/stumpClassify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdaBoost元算法/adaBoostTrainDS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdaBoost元算法/adaboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/AdaBoost元算法/adaboost.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AdaBoost元算法/adaboost.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="627">
+              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -24,8 +26,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AdaBoost元算法/stumpClassify.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="570">
               <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AdaBoost元算法/adaBoostTrainDS.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -65,8 +76,9 @@
         <option value="$PROJECT_DIR$/支持向量机/selectJrand.py" />
         <option value="$PROJECT_DIR$/支持向量机/smoSimple.py" />
         <option value="$PROJECT_DIR$/支持向量机/svmMLiA.py" />
-        <option value="$PROJECT_DIR$/AdaBoost元算法/adaboost.py" />
         <option value="$PROJECT_DIR$/AdaBoost元算法/stumpClassify.py" />
+        <option value="$PROJECT_DIR$/AdaBoost元算法/adaboost.py" />
+        <option value="$PROJECT_DIR$/AdaBoost元算法/adaBoostTrainDS.py" />
       </list>
     </option>
   </component>
@@ -84,7 +96,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,6 +112,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,16 +397,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AdaBoost元算法/adaBoostTrainDS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AdaBoost元算法/adaboost.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="627">
+          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AdaBoost元算法/stumpClassify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="570">
           <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
         </state>
       </provider>
