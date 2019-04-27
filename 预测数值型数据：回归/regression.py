@@ -51,3 +51,28 @@ def lwlrTest(testArr, xArr, yArr, k=1.0):
 
 def rssError(yArr, yHatArr):
     return ((yArr - yHatArr) ** 2).sum()
+
+# 岭回归
+def ridgeRegres(xMat, yMat, lam=0.2):
+    xTx = xMat.T * xMat
+    denom = xTx + eye(shape(xMat)[1]) * lam
+    if linalg.det(denom) == 0.0:
+        print('this matrix is singular, can not do inverse')
+        return
+    ws = denom.I * (xMat.T * yMat)
+    return ws
+
+def ridgeTest(xArr, yArr):
+    xMat = mat(xArr)
+    yMat = mat(yArr).T
+    yMean = mean(yMat, 0)
+    yMat = yMat - yMean
+    xMearns = mean(xMat, 0)
+    xVar = var(xMat, 0)
+    xMat = (xMat - xMearns) / xVar
+    numTestPts = 30
+    wMat = zeros((numTestPts, shape(xMat)[1]))
+    for i in range(numTestPts):
+        ws = ridgeRegres(xMat, yMat, exp(i-10))
+        wMat[i, :] = ws.T
+    return wMat
