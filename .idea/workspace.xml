@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a014b49-ad51-441b-bb0b-21d2b32070f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/预测数值型数据：回归/stageWise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/树回归/binSplitDataSet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/树回归/regTrees.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/预测数值型数据：回归/regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/预测数值型数据：回归/regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advantage and Disadvantage.md" beforeDir="false" afterPath="$PROJECT_DIR$/Advantage and Disadvantage.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/预测数值型数据：回归/regression.py">
+        <entry file="file://$PROJECT_DIR$/树回归/regTrees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+            <state relative-caret-position="19">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -66,6 +67,9 @@
         <option value="$PROJECT_DIR$/预测数值型数据：回归/ridgeRegres.py" />
         <option value="$PROJECT_DIR$/预测数值型数据：回归/regression.py" />
         <option value="$PROJECT_DIR$/预测数值型数据：回归/stageWise.py" />
+        <option value="$PROJECT_DIR$/树回归/binSplitDataSet.py" />
+        <option value="$PROJECT_DIR$/树回归/regTrees.py" />
+        <option value="$PROJECT_DIR$/chooseBestSplit.py" />
       </list>
     </option>
   </component>
@@ -94,7 +98,7 @@
             <path>
               <item name="Machine Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="Machine Learning" type="462c0819:PsiDirectoryNode" />
-              <item name="预测数值型数据：回归" type="462c0819:PsiDirectoryNode" />
+              <item name="树回归" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,7 +165,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19122024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -436,7 +439,35 @@
     <entry file="file://$PROJECT_DIR$/预测数值型数据：回归/regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
-          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/树回归/binSplitDataSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chooseBestSplit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/树回归/chooseBestSplit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/树回归/regTrees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>
