@@ -1,35 +1,18 @@
-# K-均值聚类支持函数
-from numpy import *
-
-def loadDataSet(fileName):
-    dataMat = []
-    fr = open(fileName)
-    for line in fr.readlines():
-        curLine = line.strip().split('\t')
-        fltLine = list(map(float,curLine))
-        dataMat.append(fltLine)
-    return dataMat
-
-def distEclud(vecA, vecB):
-    return sqrt(sum(power(vecA - vecB, 2)))
-
-def randCent(dataSet, k):
-    n = shape(dataSet)[1]
-    centroids = mat(zeros((k,n)))
-    for j in range(n):
-        minJ = min(dataSet[:,j])
-        rangeJ = float(max(dataSet[:, j]) - minJ)
-        centroids[:,j] = minJ + rangeJ * random.rand(k, 1)
-    return centroids
-
 # K-均值聚类算法
+
+# 四个参数：数据集，质心数，距离函数，创建质心函数
 def kMeans(dataSet, k, distMeas = distEclud, createCent = randCent):
+    # 行数，确定数据集中数据点的总数
     m = shape(dataSet)[0]
+    # 创建一个矩阵存储每个点的簇分配结果
     clusterAssment = mat(zeros((m, 2)))
+    # 调用函数生成随机质心
     centroids = createCent(dataSet, k)
+    # 创建一个标志变量，若为true，则继续迭代
     clusterChanged = True
     while clusterChanged:
         clusterChanged = False
+        # 寻找最近的质心
         for i in range(m):
             minDist = inf
             minIndex = -1
@@ -42,6 +25,7 @@ def kMeans(dataSet, k, distMeas = distEclud, createCent = randCent):
                 clusterChanged = True
             clusterAssment[i, :] = minIndex, minDist**2
         print(centroids)
+        # 更新质心的位置
         for cent in range(k):
             ptsInClust = dataSet[nonzero(clusterAssment[:, 0].A == cent)[0]]
             centroids[cent, :] = mean(ptsInClust, axis = 0)
